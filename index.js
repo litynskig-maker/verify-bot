@@ -136,4 +136,4 @@ musisz przejść krótką weryfikację bezpieczeństwa.
     }
 });
 
-client.login(TOKEN);
+client.login(process.env.TOKEN);
